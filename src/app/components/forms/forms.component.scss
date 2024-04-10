@@ -80,11 +80,24 @@
 
 .form-group .btn-wrapper .btn-primary {
   background-color: var(--yellow);
+  border: 0.5px solid var(--medium-gray);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    scale: 1.03;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .form-group .btn-wrapper .btn-secondary {
   background-color: transparent;
   border: 0.5px solid var(--medium-gray);
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    scale: 1.03;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .form-group .checkbox-wrapper {
